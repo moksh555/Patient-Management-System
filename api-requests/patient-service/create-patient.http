@@ -1,0 +1,15 @@
+### POST request to create patient
+POST http://lb-15be0a0a.elb.localhost.localstack.cloud:4004/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+{
+  "name": "io Vaghasia",
+  "email": "ioestvaghasia@gmail.com",
+  "address": "Gopal8 main street",
+  "dateOfBirth": "2006-05-18",
+  "registeredDate": "2025-09-25"
+
+}
+
+###
